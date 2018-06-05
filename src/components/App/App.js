@@ -9,7 +9,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      tag: 'art'
+      tag: localStorage.getItem("tag") || "cat"
     };
   }
 
